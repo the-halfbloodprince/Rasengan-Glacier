@@ -1,0 +1,42 @@
+{
+    "name": "rasengan-glacier",
+    "displayName": "Rasengan Glacier",
+    "description": "A dark theme made by rotating chakra at extremely high speed and grinding it with itself. Jk. ",
+    "version": "0.0.1",
+    "publisher": "TheHalfBloodPrince",
+    "icon": "assets/icon.png",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/the-halfbloodprince/rasengan-glacier"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "cool theme",
+        "rasengan",
+        "naruto",
+        "glacier",
+        "blue",
+        "light blue",
+        "electric",
+        "chakra",
+        "anime"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rasengan Glacier",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Rasengan Glacier-color-theme.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^1.87.1"
+    }
+}
